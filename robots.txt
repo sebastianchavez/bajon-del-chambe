@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Reemplaza la URL por tu dominio real al publicar.
+# Sitemap: https://tudominio.cl/sitemap.xml

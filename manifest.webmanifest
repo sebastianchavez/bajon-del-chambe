@@ -1,0 +1,24 @@
+{
+  "name": "El Bajón del Chambe",
+  "short_name": "El Chambe",
+  "description": "Comida rápida en Santiago. Hamburguesas, papas fritas, chorrillanas y café.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0b0b0d",
+  "theme_color": "#f5b301",
+  "lang": "es-CL",
+  "icons": [
+    {
+      "src": "assets/img/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/logo.png",
+      "sizes": "600x600",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

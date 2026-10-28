@@ -1,0 +1,24 @@
+{
+  "name": "bajon-del-chambe",
+  "version": "1.0.0",
+  "description": "Web de El Bajón del Chambe — comida rápida. Landing page, catálogo y contacto.",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build -- --watch",
+    "build": "tailwindcss -i ./src/css/main.css -o ./dist/styles.css --minify",
+    "build:dev": "tailwindcss -i ./src/css/main.css -o ./dist/styles.css",
+    "serve": "npx --yes serve . -l 3000"
+  },
+  "keywords": [
+    "fast-food",
+    "tailwind",
+    "restaurante"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.3"
+  }
+}

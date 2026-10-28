@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.env.local
+.vercel
+.netlify
+
+# NOTA: dist/ NO se ignora a propósito.
+# El CSS compilado se versiona para que el sitio funcione
+# al publicarlo como estático (GitHub Pages, Netlify, etc.).
+# Regenerar con: npm run build

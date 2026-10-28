@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Bajón del Chambe | Comida rápida en Santiago</title>
+    <meta
+      name="description"
+      content="El Bajón del Chambe: hamburguesas, papas fritas, chorrillanas y café. Av. Coronel Alejandro Sepúlveda #7218, Santiago. Pide por WhatsApp."
+    />
+    <meta name="theme-color" content="#0b0b0d" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="restaurant.restaurant" />
+    <meta property="og:title" content="El Bajón del Chambe | Comida rápida" />
+    <meta
+      property="og:description"
+      content="Hamburguesas, papas fritas, chorrillanas y café. Hecho al momento, para llevar o retirar."
+    />
+    <meta property="og:image" content="assets/img/og-cover.jpg" />
+    <meta property="og:locale" content="es_CL" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/img/favicon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="dist/styles.css" />
+  </head>
+
+  <body class="bg-ink-950 antialiased">
+    <!-- Header -->
+    <header
+      id="header"
+      class="sticky top-0 z-40 border-b border-ink-800 bg-ink-950/90 backdrop-blur-md"
+    ></header>
+
+    <main>
+      <!-- ================================================================
+           HERO
+           ================================================================ -->
+      <section class="hero-section relative overflow-hidden">
+        <div class="hero-glow absolute inset-0"></div>
+        <div class="bg-grid-dark absolute inset-0 opacity-60"></div>
+
+        <div
+          class="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-16 sm:px-6 sm:py-24 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-28"
+        >
+          <!-- Copy -->
+          <div class="animate-fade-up text-center lg:text-left">
+            <p
+              class="inline-flex items-center gap-2 rounded-full border border-brand-600/40 bg-brand-500/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-brand-400"
+            >
+              <span class="h-2 w-2 animate-pulse rounded-full bg-brand-500"></span>
+              Comida rápida en Santiago
+            </p>
+
+            <h1
+              class="mt-6 font-display text-5xl uppercase leading-none text-white sm:text-6xl lg:text-7xl"
+            >
+              El Bajón<br />
+              <span class="text-brand-500">del Chambe</span>
+            </h1>
+
+            <div class="divider-flame mx-auto mt-6 lg:mx-0"></div>
+
+            <p
+              class="mx-auto mt-6 max-w-lg text-lg leading-relaxed text-zinc-400 lg:mx-0"
+            >
+              Hamburguesas, papas fritas, chorrillanas y café. Todo hecho al
+              momento, para llevar o retirar en el local. Pide con un clic por
+              WhatsApp.
+            </p>
+
+            <!-- CTAs -->
+            <div
+              class="mt-9 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-center lg:justify-start"
+            >
+              <a
+                href="#"
+                data-wa-general
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-whatsapp text-base"
+              >
+                <span class="h-6 w-6" data-icon="whatsapp"></span>
+                Pedir por WhatsApp
+              </a>
+              <a href="catalogo.html" class="btn-brand text-base">
+                Ver catálogo
+                <span class="h-5 w-5" data-icon="flecha"></span>
+              </a>
+            </div>
+
+            <!-- Trust badges -->
+            <dl
+              class="mt-12 grid grid-cols-3 gap-4 border-t border-ink-800 pt-8 text-center lg:text-left"
+            >
+              <div>
+                <dt class="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                  Delivery
+                </dt>
+                <dd class="mt-1 font-display text-lg uppercase text-white">Sí</dd>
+              </div>
+              <div>
+                <dt class="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                  Retiro
+                </dt>
+                <dd class="mt-1 font-display text-lg uppercase text-white">Sí</dd>
+              </div>
+              <div>
+                <dt class="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                  Desde
+                </dt>
+                <dd class="mt-1 font-display text-lg uppercase text-brand-500">
+                  $1.290
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <!-- Imagen -->
+          <div class="hero-visual relative animate-fade-up">
+            <div
+              class="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-brand-500/20 to-flame-500/10 blur-2xl"
+            ></div>
+            <div class="hero-photo-frame relative">
+              <img
+                src="assets/img/hero.jpg"
+                alt="Fotografía de referencia de una hamburguesa con queso, tomate y lechuga"
+                width="1100" height="1375" fetchpriority="high"
+                class="hero-photo aspect-[4/5] w-full rounded-[1.75rem] border border-ink-700 object-cover shadow-card sm:aspect-square lg:aspect-[4/5]"
+                onerror="this.onerror=null;this.src='assets/img/placeholder.jpg'"
+              />
+
+              <span class="photo-caption">EL ANTOJO PARTE POR LOS OJOS · FOTO REFERENCIAL</span>
+              <!-- Badge flotante -->
+              <div
+                class="hero-badge absolute -bottom-5 -left-3 flex items-center gap-3 rounded-2xl border border-ink-700 bg-ink-900/95 px-5 py-4 shadow-card backdrop-blur sm:-left-6"
+              >
+                <span class="h-6 w-6 shrink-0 text-brand-500" data-icon="estrella"></span>
+                <div>
+                  <p class="font-display text-lg uppercase leading-none text-white">
+                    Hecho al momento
+                  </p>
+                  <p class="mt-1 text-xs text-zinc-400">Sin comida congelada</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+           FRANJA DE SERVICIOS
+           ================================================================ -->
+      <section class="border-y border-ink-800 bg-ink-900/40">
+        <div
+          class="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 md:grid-cols-3 lg:px-8"
+        >
+          <div class="flex items-start gap-4">
+            <span
+              class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-brand-500/15 text-brand-400"
+              data-icon="delivery"
+            ></span>
+            <div>
+              <h2 class="font-display text-lg uppercase text-white">Delivery</h2>
+              <p class="mt-1 text-sm leading-relaxed text-zinc-400">
+                Te lo llevamos a tu casa u oficina en Santiago.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <span
+              class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-brand-500/15 text-brand-400"
+              data-icon="retiro"
+            ></span>
+            <div>
+              <h2 class="font-display text-lg uppercase text-white">
+                Retiro en el local
+              </h2>
+              <p class="mt-1 text-sm leading-relaxed text-zinc-400">
+                Pide y pasa a retirar. Sin esperas y sin costos extra.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <span
+              class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-brand-500/15 text-brand-400"
+              data-icon="estrella"
+            ></span>
+            <div>
+              <h2 class="font-display text-lg uppercase text-white">
+                Preparado al momento
+              </h2>
+              <p class="mt-1 text-sm leading-relaxed text-zinc-400">
+                Cocinamos tu pedido cuando lo haces. Fresco y caliente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+           DESTACADOS
+           ================================================================ -->
+      <section id="destacados" class="relative py-20 sm:py-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+            <div class="text-center sm:text-left">
+              <p
+                class="text-xs font-bold uppercase tracking-widest text-brand-500"
+              >
+                Lo más pedido
+              </p>
+              <h2
+                class="mt-3 font-display text-4xl uppercase text-white sm:text-5xl"
+              >
+                Los clásicos<br class="hidden sm:block" /> del Chambe
+              </h2>
+              <div class="divider-flame mx-auto mt-5 sm:mx-0"></div>
+            </div>
+
+            <a
+              href="catalogo.html"
+              class="btn-ghost mx-auto shrink-0 text-sm sm:mx-0"
+            >
+              Ver todo el catálogo
+              <span class="h-4 w-4" data-icon="flecha"></span>
+            </a>
+          </div>
+
+          <div id="grid-destacados" class="mt-12"></div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+           CATEGORÍAS
+           ================================================================ -->
+      <section class="border-y border-ink-800 bg-ink-900/40 py-20 sm:py-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <p class="text-xs font-bold uppercase tracking-widest text-brand-500">
+              Nuestro menú
+            </p>
+            <h2 class="mt-3 font-display text-4xl uppercase text-white sm:text-5xl">
+              ¿Qué se te antoja?
+            </h2>
+            <div class="divider-flame mx-auto mt-5"></div>
+          </div>
+
+          <div
+            id="grid-categorias"
+            class="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5"
+          ></div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+           SOBRE EL LOCAL
+           ================================================================ -->
+      <section class="py-20 sm:py-24">
+        <div
+          class="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8"
+        >
+          <div class="relative food-story">
+            <img
+              src="assets/img/local.jpg"
+              alt="Fotografía de referencia de una chorrillana chilena para compartir"
+              loading="lazy" decoding="async" width="900" height="675"
+              class="aspect-[4/3] w-full rounded-[1.75rem] border border-ink-700 object-cover shadow-card"
+              onerror="this.onerror=null;this.src='assets/img/placeholder.jpg'"
+            />
+            <span class="story-label">PAPAS, SABOR Y BUENA COMPAÑÍA</span>
+            <p class="mt-3 text-xs text-zinc-500">Chorrillana referencial. Descubre nuestro local y sus preparaciones en Instagram.</p>
+          </div>
+
+          <div>
+            <p class="text-xs font-bold uppercase tracking-widest text-brand-500">
+              Sabor de barrio
+            </p>
+            <h2
+              class="mt-3 font-display text-4xl uppercase text-white sm:text-5xl"
+            >
+              Un rincón de<br />comida con alma
+            </h2>
+            <div class="divider-flame mt-5"></div>
+
+            <div class="mt-6 space-y-4 text-base leading-relaxed text-zinc-400">
+              <p>
+                En <strong class="text-white">El Bajón del Chambe</strong>
+                creemos que la comida rápida de verdad se prepara al momento, con
+                ingredientes de verdad y un sazón que no se encuentra en un
+                Congelador.
+              </p>
+              <p>
+                Somos un local familiar en Av. Coronel Alejandro Sepúlveda,
+                con delivery y retiro. Si buscas una hamburguesa que te llene el
+                alma, llegaste al lugar correcto.
+              </p>
+            </div>
+
+            <ul class="mt-8 space-y-3">
+              <li class="flex items-center gap-3 text-zinc-300">
+                <span class="h-2 w-2 shrink-0 rounded-full bg-brand-500"></span>
+                Carne de res de verdad, 150 g en cada hamburguesa
+              </li>
+              <li class="flex items-center gap-3 text-zinc-300">
+                <span class="h-2 w-2 shrink-0 rounded-full bg-brand-500"></span>
+                Pan y salchichas artesanales
+              </li>
+              <li class="flex items-center gap-3 text-zinc-300">
+                <span class="h-2 w-2 shrink-0 rounded-full bg-brand-500"></span>
+                Salsas y café preparados en el local
+              </li>
+            </ul>
+
+            <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+              <a
+                href="#"
+                data-wa-general
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-whatsapp"
+              >
+                <span class="h-5 w-5" data-icon="whatsapp"></span>
+                Pedir ahora
+              </a>
+              <a href="contacto.html" class="btn-ghost">
+                <span class="h-5 w-5" data-icon="ubicacion"></span>
+                Cómo llegar
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+           CTA FINAL
+           ================================================================ -->
+      <section class="relative overflow-hidden py-20 sm:py-28">
+        <div class="hero-glow absolute inset-0"></div>
+        <div class="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+          <h2
+            class="font-display text-4xl uppercase text-white sm:text-6xl"
+          >
+            ¿Antojo de<br /><span class="text-brand-500">Chambe</span>?
+          </h2>
+          <p class="mx-auto mt-5 max-w-xl text-lg text-zinc-400">
+            Escríbenos por WhatsApp, arma tu pedido y en minutos lo tienes
+            listo. Sin esperas, sin vueltas.
+          </p>
+          <div
+            class="mt-9 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center"
+          >
+            <a
+              href="#"
+              data-wa-general
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-whatsapp text-base"
+            >
+              <span class="h-6 w-6" data-icon="whatsapp"></span>
+              Pedir por WhatsApp
+            </a>
+            <a href="tel:+56926046878" class="btn-ghost text-base">
+              <span class="h-5 w-5" data-icon="telefono"></span>
+              +56 9 2604 6878
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="border-t border-ink-800 bg-ink-950"></footer>
+
+    <!-- WhatsApp flotante -->
+    <div id="whatsapp-flotante"></div>
+
+    <script type="module" src="src/js/main.js"></script>
+    <script type="module" src="src/js/icons.js"></script>
+  </body>
+</html>
